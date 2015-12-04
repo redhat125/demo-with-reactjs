@@ -29,7 +29,7 @@ $message = "
 </head>
 <body>
 
-<p><a href='".$globals['site_url']."?link=$linkler'>click here </a> to reset your password</p>
+<p><a href='".$globals['site_url']."reset.php?link=$linker'>click here</a> to reset your password</p>
 
 </body>
 </html>
