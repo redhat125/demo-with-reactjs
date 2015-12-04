@@ -31,7 +31,7 @@ var SubmitButton = React.createClass({
 				ReactDOM.render(<Mailsent />, document.getElementById('container'));
 		  }
 		  else{
-			  alert( data ); 
+			 // alert( data ); 
 		  		  ReactDOM.render(<Formerror />, document.getElementById('error'));
 		  }
 	  });
