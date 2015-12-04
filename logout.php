@@ -5,7 +5,7 @@ include("./opencon.php");
 if(isset($_SESSION['user'])){
 	unset($_SESSION['user']);
 	$_SESSION = Array();
-	header("Location: http://".$globals['site_url']."/");
+	header("Location: http://".$globals['site_url']);
 }
 
 ?>
