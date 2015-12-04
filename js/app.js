@@ -136,7 +136,7 @@ var Signupbox = React.createClass({
 var Loggedin = React.createClass({
 	render: function(){
 		
-		alert(username);
+		//alert(username);
 		return (
 			<div className="row">
 				<h1 className="page-header">
